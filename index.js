@@ -29,4 +29,9 @@ class Square extends Polygon {
     else
     return false;
   }
+  get area (l) {
+    if (this.isValid)
+    let areaSquare = this.array[0]**2;
+    return areaSquare;
+  }
 }
