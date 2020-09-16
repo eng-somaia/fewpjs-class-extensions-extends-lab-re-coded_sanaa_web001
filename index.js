@@ -1,5 +1,5 @@
 class Polygon {
-  construct (array){
+  constructor (array){
     this.array = array;
   }
 
@@ -29,8 +29,7 @@ class Square extends Polygon {
     else
     return false;
   }
-  get area (l) {
-    if (this.isValid)
+  get area () {
     let areaSquare = this.array[0]**2;
     return areaSquare;
   }
